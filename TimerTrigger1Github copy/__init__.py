@@ -9,6 +9,6 @@ def main(mytimer: func.TimerRequest) -> None:
         tzinfo=datetime.timezone.utc).isoformat()
 
     if mytimer.past_due:
-        logging.info('The timer is past due!')
+        logging.info('The timer is past due!afsdfasdfasdfasd')
 
     logging.info('Python timer trigger function ran at %s HOLA Q ASES Cambio en esta solo', utc_timestamp)
